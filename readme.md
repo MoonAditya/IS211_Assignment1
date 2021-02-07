@@ -8,5 +8,5 @@ Forked from aboved specified link.
 - **git command** instead of the IDE GUI.
 
 
-//Todo:
+- [ ] Todo:
 - adding a stylecop
