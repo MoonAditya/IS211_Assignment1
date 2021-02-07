@@ -1,6 +1,6 @@
  ## Final version of Assignment 1
 class ListDivideException(Exception):
-  """ raising ListDivideException when the listDivide function  """
+  """ raising custom ListDivideException for the listDivide function  """
   pass
 
 
@@ -18,7 +18,7 @@ def testListDivide():
     assert listDivide([30, 54, 63,98, 100], divide=10) == 2
     assert listDivide([]) == 0
     assert listDivide([1,2,3,4,5], 1) == 6   
-    print("All assertion work")        
+    print("All assertions work")        
   except AssertionError as ex:    
     raise ListDivideException("An exception occurred") from ex
     
